@@ -1,0 +1,7 @@
+image: ciaolang/ciao
+
+build:
+  script:
+    - ciaoc -c src/*.pl
+  tags:
+    - ciao
