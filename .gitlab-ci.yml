@@ -2,6 +2,7 @@ image: ciaolang/ciao
 
 build:
   script:
+    - ls
     - ciaoc -c src/*.pl
   tags:
     - ciao
